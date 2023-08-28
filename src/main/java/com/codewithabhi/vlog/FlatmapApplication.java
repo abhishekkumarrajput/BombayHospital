@@ -31,7 +31,13 @@ public class FlatmapApplication {
 	
 	List<String> collect = name.stream().flatMap(state->state.cityname.stream()).collect(Collectors.toList());
 	System.out.println("useing flatmap"+collect);
-	
+	System.out.println("useing flatmap"+collect);
+	System.out.println("useing flatmap"+collect);
+	System.out.println("useing flatmap"+collect);
+	System.out.println("useing flatmap"+collect);
+	System.out.println("useing flatmap"+collect);
+	System.out.println("useing flatmap"+collect);
+	System.out.println("useing flatmap"+collect);
 	List<State> collect1 = name.stream().collect(Collectors.toList());
 	System.out.println("only print collection"+collect1);	
 	
