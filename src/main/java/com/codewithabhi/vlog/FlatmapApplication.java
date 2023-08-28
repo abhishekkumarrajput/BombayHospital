@@ -40,7 +40,19 @@ public class FlatmapApplication {
 	System.out.println("useing flatmap"+collect);
 	List<State> collect1 = name.stream().collect(Collectors.toList());
 	System.out.println("only print collection"+collect1);	
+	 collect.stream().sorted().collect(Collectors.toList()).forEach(System.out::println);
 	
+	List<String>alph=Arrays.asList("abhishek");
+	List<String>alph1=Arrays.asList("rajpiut"); collect.stream().sorted().collect(Collectors.toList()).forEach(System.out::println);
+	
+	List<String>alph=Arrays.asList("abhishek");
+	List<String>alph1=Arrays.asList("rajpiut"); collect.stream().sorted().collect(Collectors.toList()).forEach(System.out::println);
+	
+	List<String>alph=Arrays.asList("abhishek");
+	List<String>alph1=Arrays.asList("rajpiut"); collect.stream().sorted().collect(Collectors.toList()).forEach(System.out::println);
+	
+	List<String>alph=Arrays.asList("abhishek");
+	List<String>alph1=Arrays.asList("rajpiut");
 	 collect.stream().sorted().collect(Collectors.toList()).forEach(System.out::println);
 	
 	List<String>alph=Arrays.asList("abhishek");
